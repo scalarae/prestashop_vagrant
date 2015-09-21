@@ -22,6 +22,9 @@ sudo cp /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
 sudo a2enconf phpmyadmin 
 sudo service apache2 reload
 
+## git
+sudo apt-get install -y git
+
 ## Download Prestashop
 cd /vagrant
 wget http://www.prestashop.com/download/old/$PS_VERSION
